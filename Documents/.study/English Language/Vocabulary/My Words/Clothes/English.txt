@@ -1,0 +1,5 @@
+clothes.
+shirt.
+pants. underwear.
+wristwatch. hat. bag.
+shoes.

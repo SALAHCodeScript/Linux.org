@@ -1,0 +1,21 @@
+What is an object?
+------------------------------------------------------------------
+Objects are instances of a class created with specifically
+defined data. Objects can correspond to real-world objects or an
+abstract entity. When class is defined initially, the description
+is the only object that is defined.
+------------------------------------------------------------------
+
+Example -Py-
+------------------------------------------------------------------
+The input:
+class ClassObject:
+    def __init__(self):
+        self.my_data = 'Hello World'
+
+MyObject = ClassObject()
+print(MyObject.my_data)
+
+The output:
+=> Hello World
+------------------------------------------------------------------

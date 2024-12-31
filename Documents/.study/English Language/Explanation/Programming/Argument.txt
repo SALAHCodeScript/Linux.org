@@ -1,0 +1,23 @@
+What is is an argument?
+------------------------------------------------------------------
+An argument is a way for you to provide more information to 
+a function. The function can then use that information as it
+runs, like a variable. Said differently, when you create
+a function, you can pass in data in the form of an argument, also
+called a parameter. 
+Arguments are variables used only in that specific function
+You specify the value of an argument when you call the function
+Function arguments allow your programs to utilize more information
+------------------------------------------------------------------
+
+Example -C++-
+------------------------------------------------------------------
+The input:
+string howMuchFun(string amount) {
+    return amount + "fun";
+}
+howMuchFun("tons of")
+
+The output:
+=> tons of fun
+------------------------------------------------------------------

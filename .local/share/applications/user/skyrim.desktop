@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Skyrim
+Comment=The Elder Scrolls V: Skyrim - Legendary Edition
+Icon=/home/salah/D/Games/Play/The Elder Scrolls V - Skyrim Legendary Edition/game.ico
+Exec=cd /home/salah/D/Games/Play/The\\ Elder\\ Scrolls\\ V\\ -\\ Skyrim\\ Legendary\\ Edition && wine TESV.exe
+Terminal=false
+Categories=Game;

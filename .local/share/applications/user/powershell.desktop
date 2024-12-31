@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=PowerShell 7
+Comment=Script Language
+Exec=/usr/bin/pwsh
+Icon=/home/salah/.icons/Powershell.png
+Terminal=true
+Categories=Development;

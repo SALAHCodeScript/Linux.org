@@ -1,0 +1,123 @@
+			   Preposition
+------------------------------------------------------------------
+A preposition is a word or group of words used before a noun, 
+pronoun, or noun phrase to show direction, time, place, location,
+spatial relationships, or to introduce an object. Some examples 
+of prepositions are words like "in", "at", "on", "of" and "to"
+Prepositions indicate direction, time, location, and spatial 
+relationships, as well as other abstract types of relationships
+------------------------------------------------------------------
+
+			   Direction
+------------------------------------------------------------------
+Along:
+The boy is walking along the beach.
+I've to move along the way to reach.
+_________________________________________________________________
+Across:
+The car is going across the bridge.
+He was running across the road.
+_________________________________________________________________
+Around:
+The dog is running around its kennel.
+You're moving around my house.
+_________________________________________________________________
+Through:
+The rat is going through a pipe.
+His car went through the subway.
+------------------------------------------------------------------
+
+			     Place
+------------------------------------------------------------------
+Above:
+The ball is above the box.
+_________________________________________________________________
+Below:
+The ball is below the box.
+_________________________________________________________________
+On:
+The ball is on the box.
+_________________________________________________________________
+On top of:
+The ball is on top of the box.
+_________________________________________________________________
+Under:
+The ball is under the box.
+_________________________________________________________________
+In front of:
+The ball is in front of the box.
+_________________________________________________________________
+Behind:
+The ball is behind the box.
+_________________________________________________________________
+Next to:
+The ball is next to the box.
+_________________________________________________________________
+In:
+The ball is in the box.
+_________________________________________________________________
+Between:
+The ball is between the box.
+_________________________________________________________________
+Among:
+The ball is among the box.
+_________________________________________________________________
+Near:
+The ball is near the box.
+_________________________________________________________________
+Far from:
+The ball is far from the box.
+------------------------------------------------------------------
+
+			     Movement
+------------------------------------------------------------------
+Onto:
+The ball has been moving onto the box.
+_________________________________________________________________
+Off:
+The ball has been moving off the box.
+_________________________________________________________________
+Over:
+The ball has been moving over the box.
+_________________________________________________________________
+Away from:
+The ball has been moving away from the box.
+_________________________________________________________________
+Toward:
+The ball has been moving toward the box.
+_________________________________________________________________
+Past:
+The ball has been moving past the box.
+_________________________________________________________________
+Out of:
+The ball has been moving out of the box.
+_________________________________________________________________
+Into:
+The ball has been moving into the box.
+_________________________________________________________________
+Through:
+The ball has been moving through the box.
+_________________________________________________________________
+Around:
+The ball has been moving around the box.
+_________________________________________________________________
+along:
+The ball has been moving along the road.
+_________________________________________________________________
+across:
+The ball has been moving across the road.
+_________________________________________________________________
+Up:
+The ball has been moving up the stairs.
+_________________________________________________________________
+Down:
+The ball has been moving down the stairs.
+------------------------------------------------------------------
+
+
+
+
+
+
+
+

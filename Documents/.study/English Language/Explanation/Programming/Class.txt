@@ -1,0 +1,18 @@
+What is a class?
+------------------------------------------------------------------
+Classes are user-defined data types that act as the blueprint for
+individual objects, attributes and methods.
+------------------------------------------------------------------
+
+Example -Py-
+------------------------------------------------------------------
+The input:
+Class Human:
+    name = "SALAH"
+
+person = Human()
+print(person.name)
+
+The output:
+=> SALAH
+------------------------------------------------------------------

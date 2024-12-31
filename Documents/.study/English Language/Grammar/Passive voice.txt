@@ -1,0 +1,64 @@
+			      Passive
+------------------------------------------------------------------
+We use the passive voice to change the focus of the sentence
+We often use the passive:
+When we prefer not to mention who or what does the action
+(for example, it's not known, it's obvious or we don't want 
+to say), So that we can start a sentence with the most important 
+or most logical information, in more formal or scientific writing
+We make the passive using the verb be + past participle
+We start the sentence with the object
+------------------------------------------------------------------
+			   Present simple
+Structure: is/are + past participle
+Example:
+	Alioli is made from oil, garlic and salt
+	He writes the new letter (Active)
+	The new letter is written (Passive)
+
+__________________________________________________________________
+			 Present continuous
+Structure: is/are + being + past participle
+Example:
+	The hall is being painted this week
+	The students are reading the text (Aactive)
+	The text is being read by the students (Passive)
+
+__________________________________________________________________
+			  Present perfect
+Structure: Have/has + been + past participle
+Example:
+	Oranges have been grown here for centuries
+	The animals has eaten all the food (Active)
+	The all food has been eaten by the animals (Passive)
+__________________________________________________________________
+			   Past simple
+Structure: was/were + past participle
+Example:
+	John F. Kennedy was assassinated in 1963
+	His father gave him the new laptop (Active)
+	The new laptop was given by his father (Passive)
+
+__________________________________________________________________
+			Past continuous
+Structure: was/were + being + past participle
+Example:
+	The signs were being put up last week
+	The server were cleaning the house (Active)
+	The house were being cleaned by The server (Passive)
+
+__________________________________________________________________
+			   Past prefect
+Structure: had + been + past participle
+Example:
+	When he got home, he found that his flat had been burgled
+	He had met his mother in the hospital (Active)
+	In the hospital had met his mother (Passive)
+
+__________________________________________________________________
+			  Future simple
+Structure: will + be + past participle
+Example:
+	The work will be finished next week
+	He will finish the project (Active)
+	The project will be finished (Passive)

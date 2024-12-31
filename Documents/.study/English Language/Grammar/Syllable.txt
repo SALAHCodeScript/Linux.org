@@ -1,0 +1,73 @@
+			     Syllable
+------------------------------------------------------------------
+A syllable is an unbroken vowel sound within a word. Notice 
+that we say a vowel sound, not just a vowel by itself
+A vowel sound contains whichever consonants (and other vowels) 
+are attached to a vowel to make a certain, distinct sound
+For example, the word blanket has two syllables: blan + ket
+------------------------------------------------------------------
+	 	     one vowel = one syllable
+
+e.g The word universe:
+First, count the vowels: 'u', 'i', 'e', and 'e'. There are 4
+The 'e' at the end is silent, so subtract one, Now there are 3
+There are no vowel pairs, so we’re done! The word universe 
+has 3 syllables
+All of these rules have exceptions, but they are a good way 
+to get started until counting syllables comes naturally to you
+
+Example:
+	blankey => blan-ket
+	monosyllabic => mon-o-syl-la-bic
+
+__________________________________________________________________
+			Closed syllables
+
+A closed syllable has one vowel sound and ends with a consonant
+
+Example:
+	stop, fort, sell, book, smart
+__________________________________________________________________
+			Open syllables
+
+An open syllable is a unit that ends in a vowel sound.
+Example:
+	boba tea, fly, tree, velcro
+__________________________________________________________________
+		Vowel-consonant-e syllables (VCE)
+
+These syllables end in a silent 'e', which is why they are 
+sometimes called “magic-e” syllables
+The silent 'e' gives the vowel before it a long sound (it sounds 
+like you are saying the vowel instead of pronouncing it )
+
+Example:
+	care, fire, mine, more
+__________________________________________________________________
+		   R-controlled syllables (VR)
+
+R-controlled syllables contain a vowel followed by 
+the letter 'r'
+
+Example:
+	blur, ear, sir, for
+__________________________________________________________________
+		        Diphthong syllables
+Diphthongs are a “vowel team” or a pair of vowels that work 
+together to create a single sound
+Common English diphthongs are 'oi', 'ou', and 'ea'
+
+Example:
+	point, house, break, beat
+__________________________________________________________________
+		      Consonant 'le' syllables
+
+This syllable has a sneaky vowel (just like the 
+vowel-consonant-e syllables above)
+It is, again, a silent 'e' The consonant 'le' syllable 
+specifically describes words that end in 'le' because you will
+not actually hear the vowel sound; you will only hear and 
+pronounce an 'l'
+
+Example:
+	bicycle, file, circle, example

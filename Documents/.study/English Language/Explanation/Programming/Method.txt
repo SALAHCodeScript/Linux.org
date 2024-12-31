@@ -1,0 +1,23 @@
+What is a method?
+------------------------------------------------------------------
+Methods are functions that are defined inside a class that
+describe the behaviors of an object. Each method contained in
+class definitions starts with a reference to an instance object.
+Additionally, the subroutines contained in an object are called
+instance methods. Programmers use methods for reusability or
+keeping functionality encapsulated inside one object at a time.
+------------------------------------------------------------------
+
+Example -Py-
+------------------------------------------------------------------
+The input:
+class Method:
+    def mth_cls(self):
+        print("Method is a function inside a class")
+
+method_class = Method()
+method_class.mth_cls()
+
+The output:
+=> Methods is a functions inside a class
+------------------------------------------------------------------

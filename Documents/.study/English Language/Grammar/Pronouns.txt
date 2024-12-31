@@ -1,0 +1,40 @@
+			      Subject
+I , You , He , She , It , We , You , They
+
+Example:
+	You are watching a moive
+	Am i reading a book?
+	He isn't okay
+__________________________________________________________________
+			      Object
+Me , You , Him , Her , It , Us , You , Them
+
+Example:
+	It's me SALAH
+	Do you know me?
+	You don't like him
+__________________________________________________________________
+			    Possessive
+My , Your , His , Her , Its , Our , Your , Their
+
+Example:
+	My name is SALAH
+	What is your name?
+	I don't like his book
+__________________________________________________________________
+  		       Possessive adjectives
+Mine , Yours , His , Hers , (Not used) , Ours , Yours , Theirs
+
+Example:
+	This a book is mine book
+	Is this yours?
+	I didn't like his book
+__________________________________________________________________
+			    Reflexive
+Myself , Yourself , Himself , Herself , Itself , Ourselves ,
+Yourselves , Themselves
+
+Example:
+	I love myself
+	Why you hurt yourself?
+	He doesn't love himself

@@ -1,0 +1,48 @@
+
+/* ==========================================================================
+   Base styles: Default Styles
+   ========================================================================== */
+::-moz-selection {background: #b3d4fc;text-shadow: none;}
+::-webkit-selection {background: #b3d4fc;text-shadow: none;}
+::-o-selection {background: #b3d4fc;text-shadow: none;}
+::selection {background: #b3d4fc;text-shadow: none;}
+hr {display: block;height: 1px;border: 0;border-top: 1px solid #ccc;margin: 1em 0;padding: 0;}	/* A better looking default horizontal rule */
+textarea {resize: vertical;}			/* Allow only vertical resizing of textareas. */
+p,h2,h3 {orphans: 3;widows: 3;}		/* Define the minimal number of words (orphans & widows) that every line should contain. */
+a:focus{outline: none !important;}
+/* ==========================================================================
+   Base styles: General Styles
+   ========================================================================== */
+
+.hidden{display: none !important; visibility: hidden;} 	/* Hide from both screenreaders and browsers */
+.visuallyhidden {border: 0;clip: rect(0 0 0 0);height: 1px;margin: -1px;overflow: hidden;padding: 0;position: absolute;width: 1px;}	/* Hide only visually, but have it available for screenreaders */
+.fadeout{opacity: 0 !important; -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";}									/* Fade Out with opacity 0 */
+.invisible {visibility: hidden;}							/* Hide visually and from screenreaders, but maintain layout */
+
+.fl{float: left;}										/* Float Left */
+.fr{float: right;}										/* Float Right */
+.dib{display: inline-block; vertical-align: top;}		/* Display inline-block with vertical top alignment */
+.tc{text-align: center;}								/* Text align Center */
+
+.ir {font: 0/0 a;text-shadow: none;color: transparent;}	/* SEO friendly Image Replacement style */
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {content: " ";display: table;}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+.browsehappy {margin: 0.2em 0;background: #ccc;color: #000;padding: 0.2em 0;}	/* A pretty Chrome Frame prompt */
+
+/* Resetting more styles */
+body, h1,p,h2{margin:0;font-size:100%;}
+li{list-style: none;}

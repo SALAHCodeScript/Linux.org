@@ -1,0 +1,149 @@
+/** A-Z Page **/
+
+h1#s-lib-public-header-title {
+	margin-top: 30px !important;
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
+.s-lg-az-result-title {
+	font-size: 1.5rem !important;
+	line-height: 2.75rem !important;
+}
+
+.s-lg-az-result-title a {
+	text-decoration: underline !important;
+}
+
+.s-lg-az-result-description, .s-lg-widget-list-description {
+	font-size: 1.4rem !important;
+	line-height: 2.3rem !important;
+}
+
+#s-lg-az-search.form-control {
+	box-shadow: 0 0 3px #fff inset,0 1px 1px rgba(0,0,0,.1) !important;
+}
+	
+#az-search-col-1 > .navbar-default, #s-lg-az-filter-cols {
+	background-color: #C6C6C6 !important;
+}
+
+#s-lg-az-trials-none.s-lg-text-ghost {
+	color: #666 !important;
+}
+
+#s-lg-db-name-featured.s-lg-db-panel {
+	background-color: #f2f2f2 !important;
+}
+
+.s-lg-az-result-badge-trial.label, 
+.s-lg-az-result-badge-featured.label, 
+.s-lg-az-result-badge-new.label {
+	padding-top: .3em !important;
+	font-size: 1.125rem !important;
+}
+
+.s-lg-az-result-keywords {
+	font-style: italic;
+}
+
+#s-lg-az-reset.btn-default {
+	background-color: #ffe066 !important;
+	border-color: #C6C6C6 !important;
+}
+
+a:hover#s-lg-az-reset.btn-default {
+	background-color: #ffd633 !important;
+	border-color: #C6C6C6 !important;
+}
+
+.s-lib-public-side-header, .s-lg-db-panel-title, .s-lib-public-side-header h2, .s-lg-db-panel-title {
+	color: #574319 !important;
+	font-family: "Times New Roman", Georgia, Serif !important;
+}
+
+.s-lg-db-panel-title {
+	font-size: 2.2rem !important;
+}
+
+#s-lg-widget-1431640048983 > ul > li > .s-lg-guide-list-info {
+	display: inherit !important;
+}
+
+#s-lg-widget-1431640048983 > ul {
+	list-style-type: none !important;
+	padding-left: 0 !important;
+	line-height: 150%;
+}
+
+#s-lg-widget-1431640048983 > ul  > li {
+	padding-bottom: 1em !important;
+}
+
+#s-lg-widget-1431640048983 > ul  > li  > a {
+	font-weight: 700;
+	font-size: 1.5rem;
+	text-decoration: underline;
+}
+
+.s-lg-icon {
+	max-height: 18px;
+	max-width: 18px;
+}
+
+.s-lg-icons > ul > li > a {
+	text-decoration: none !important;
+}
+
+#az-alerts-link {
+	padding: 10px;
+	background: #ffc;
+	border-radius: 6px;
+	border: 1px solid #ffff80;
+	margin-bottom: 15px;
+}
+
+#az-alerts-link > a {
+	color: red !important;
+	font-size: 1.6rem !important;
+	font-family: Arial,Helvetica,Verdana !important;
+}
+
+i.fa-exclamation-triangle {
+	color: red;
+}
+
+.s-lg-az-result-share {
+	display: none;
+}
+
+/* site-wide alert: library, assignment, and course guides */
+
+.alert {
+  margin-bottom:0;
+  font-size: 1.5rem;
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+/* these rules apply beyond the A-Z page but shouldn't impact anything else right now */
+
+#s-lib-public-header-desc {
+	margin-top: 10px;
+}
+
+.s-lib-public-side-header h2 {
+	font-size: 2.2rem !important;
+}
+
+/* adjust body padding */
+
+body {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.atoz {
+	padding-left: 15px;
+	padding-right: 15px;
+}

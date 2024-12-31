@@ -1,0 +1,32 @@
+/*
+Theme name: Dictionarycom
+Description: Custom Theme
+*/
+
+/*
+	Source post-css styles are located in the postcss directory.
+	The compiled bundle is in assets/bundle.css; The README.md
+	file contains instructions how to get the compilation
+	process up & running.
+
+	If you need to make a quick fix, feel free to add CSS
+	below this comment. It will override bundle.css styles.
+*/
+
+p {  }
+
+/* 
+   Show content only to mobileWeb users
+   originally developed for App users to show them Quiz help text
+*/
+   
+.helpMobile{
+           visibility: hidden;
+    }
+
+@media only screen and (max-width:480px){
+        .helpMobile{
+           visibility: visible;
+           font-style: italic;
+        }
+    }

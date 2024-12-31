@@ -1,0 +1,188 @@
+@media print {
+    /*elements that may need to be adjusted based on template*/
+     .col-md-9, .col-md-6, .col-md-5, .col-md-7 {
+         width: 100%;
+    }
+
+.panel-body .s-lib-box.s-lib-box-std.s-lib-floating-box, .panel .s-lib-box {
+	box-shadow: none;
+}
+.s-lib-box .s-lib-box-title {
+	border-bottom: none;
+}
+    /*universal elements*/
+	#universal-navigation,  #universal-navigation ul, #s-lg-guide-header-search, #search-bar-header, #hero, ul#s-lg-page-prevnext {
+    display: none !important;
+	}
+     @page {
+         margin-left: .75in;
+		 margin-right: .75in;
+		 margin-bottom: .75in;
+		 margin-top: .75in;
+    }
+	div {
+         display: table;
+
+    }
+	/*this is the side navigation box*/ 
+	     div.col-md-3.s-lg-tabs-side.pad-bottom-med {
+         display: none !important;
+    }
+
+     h1#s-lg-guide-name {
+         color: #003b4c !important;
+         text-align: center;
+		 padding-left: 0px !important;
+		 width: 100% !important;
+         font-size: 30px !important;
+		 page-break-after: avoid;
+    }
+
+     body {
+         height: 99%;
+         font-size: 16px;
+		 font-family: Arial, sans-serif;
+    }
+#s-lg-guide-main {
+	padding: 0px !important; 
+}  
+	/*text elements*/
+	#page-title {
+		margin-top: 0px; 
+	}
+	.s-lg-guide-body {
+         font-size: 16px;
+    }
+	span {
+         font-family: Arial, sans-serif;
+         font-size: 16px;
+    }
+    p, ul, ol, li {
+         page-break-inside: avoid;
+         font-size: 16px;
+		 font-family: Arial, sans-serif;
+    }
+
+	h3 {
+         font-size: 16px;
+         padding: 0px;
+    }
+    h4 {
+         font-size: 14px !important;
+    }
+     .s-lib-box-content li {
+         margin-top: .33rem !important;
+    }
+	 a {
+         color: #265986 !important;
+		 font-family: Arial, sans-serif;
+         font-size: 12px;
+    }
+    /*spells out hyperlinks on printing*/
+     a[href^="http"]:after {
+         content: " (" attr(href) ")";
+         color: #265986 !important;
+    }
+	iframe {
+		display: none;
+	} 
+	/*ADMIN print as a single page formatting to identify and highlight page titles*/
+	.s-lg-page-section {
+		font: 700 16px Arial,Geneva,Helvetica,sans-serif;
+		border-bottom: 2px solid #fdb71a;
+		color: #003b4c;
+		width:80%
+	}
+
+	.s-lg-page-section h4 {
+		font-size: 20px !important; 
+		color: #003b4c !important;
+	}
+	/*boxes*/
+    .s-lib-box {
+         padding: 5px !important;
+         margin-top: 0px !important;
+         margin-bottom: 0px !important;
+    }
+	.s-lib-box .s-lib-box-title {
+         border-bottom: none;
+    }
+	h2.s-lib-box-title {
+         color: #003b4c !important;
+         text-decoration: underline;
+         text-underline-offset: 5px;
+    }
+    .s-lib-box .s-lib-box-title, h2 {
+         font-size:20px;
+         padding: 0px;
+         color: #003b4c !important 
+    }
+	/*opens LibGuides tabbed boxes*/
+	ul.nav.nav-tabs li {
+		display: none;
+	}    
+	.s-lib-jqtabs div.tab-content {
+         padding: 0px;
+         border-bottom: none;
+         border-left: none;
+         border-right: none;
+    }
+     .tab-content>.tab-pane {
+         display: block;
+         border: 0px solid;
+         padding: 5px;
+    }
+     ul.nav.nav-tabs:before {
+         content: "Editor's Note: This is Tabbed Box Navigation - Content Expanded Below";
+         font-style: italic;
+         font-weight: bold;
+    }	
+	 /*open and resize accordion content*/
+     .collapse {
+         display: block;
+    }
+     .panel-heading h3.panel-title {
+         font-size: 20px;
+         font-weight: bold;
+         padding: 0px;
+    }
+     .panel-default > .panel-heading {
+         width: 90%;
+         padding: 0px !important;
+    }
+     .panel-default>.panel-heading+.panel-collapse>.panel-body {
+         border-top: 0px;
+    }
+     .panel-body {
+         padding: 0px;
+    }
+	/*removes accordion border*/
+	.panel-default > .panel-heading {
+		border: none;
+	}  
+	/*resizes images for better print*/
+	img {
+         max-height: 250px;
+    }
+	a.button, a.gold-button {
+		font-size: 16px !important;
+		font-weight: normal;
+	}
+    /*hides universal content*/
+     div#s-lib-scroll-top, .s-lib-footer, #banner-nav-container,  #s-lib-bc, div#s-lg-guide-print-url, .alert-bar    {
+         display: none !important;
+	 }
+
+    /*asset icons to remove*/
+     .s-lg-file-icon.fa-file-pdf-o, .fa-file-pdf-o:before, .s-lg-file-icon.fa-file-powerpoint-o, .fa-file-word-o:before, 
+	 i.s-lg-file-icon.fa.fa-file-archive-o, img.s-lg-icon, .fa-file-excel-o:before {
+         display: none;
+    }
+/*adjusting stacked-steps elements for printing*/
+.stacked-steps-content {
+	border-left: 0px; 
+}
+.step-line {
+    border-right: 0px;
+}
+}

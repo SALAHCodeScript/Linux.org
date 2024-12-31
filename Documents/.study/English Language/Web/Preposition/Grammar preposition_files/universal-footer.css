@@ -1,0 +1,206 @@
+:root {
+    /*Walden brand colors*/
+     --slate: #003b4c;
+     --cyan: #00687f;
+     --teal: #008ea9;
+     --gold: #fdb71a;
+     --green: #00a887;
+     --light-gray: #dbdee0;
+     --dark-gray: #5a5d66;
+    /*fonts and headings*/
+     --headers: noto-serif, serif;
+     --default: Arial, sans-serif;
+}
+/*FOOTER*/
+ div#s-lib-footer-public {
+     margin-top: 50px;
+}
+ .s-lib-footer {
+     background: var(--cyan);
+     width: 100% !important;
+     padding: 0px;
+     font-size: 16px;
+}
+ div#footer-departments {
+     width: 90%;
+     margin-left: 5%;
+}
+ @media screen and (max-width:1084px) {
+     div#footer-departments {
+         padding: 25px;
+         width: 100%;
+         margin-left: 0%;
+    }
+}
+ .s-lib-footer li a {
+     font-size: 16px !important;
+     color: #fff;
+     text-decoration: none;
+}
+ .s-lib-footer li a:hover, .s-lib-footer li a:focus {
+     color: #333333 !important;
+}
+ .footer-menu {
+     list-style: none;
+     margin-top: 10px;
+}
+ h2#footer-header {
+     color: #fff !important;
+     font-weight: normal;
+     font-size: 3rem;
+}
+ h3.footer-col-header {
+     font-weight: normal;
+     color: #fff !important;
+     font-size: 22px;
+}
+ .footer-col-header {
+     padding-right: 15px;
+     padding-left: 15px;
+     margin: 15px 0 0 0;
+}
+ #footer-mobile-depts {
+     display: none;
+}
+ #footer-custom-accessibility {
+     background-image: url(https://libapps.s3.amazonaws.com/accounts/31417/images/footer-graphic-550px.png) !important;
+     background-color: var(--cyan);
+     background-repeat: no-repeat;
+     background-position: bottom;
+     background-size: cover;
+     width: 100% !important;
+     padding-left: 20%;
+     padding-right: 20%;
+     margin-top: -10px;
+     padding-top: 25px;
+     padding-bottom: 25px;
+     min-height: 300px;
+     text-decoration: none;
+     color: #fff;
+     font-size: 16px;
+}
+ #footer-custom-accessibility h2 {
+     color: #fff !important;
+     font-family: noto-serif,serif !important;
+     font-size: 2rem !important;
+     font-weight: normal !important;
+}
+ #footer-custom-accessibility h2:after, h2#footer-header:after {
+     content: "";
+     display: block;
+     width: 6rem;
+     height: 0.2rem;
+     margin-left: -0.1rem;
+     margin-top: 1rem;
+     background-color: var(--gold);
+}
+ #footer-custom-accessibility a:link {
+     color: #fff !important;
+}
+ #footer-custom-accessibility a:hover,#footer-custom-accessibility a:focus {
+     color: #333 !important;
+}
+ #footer-custom-depts, #footer-custom-centers, #footer-custom-other, #footer-custom-walden, #footer-custom-logo {
+     display: inline-block;
+     vertical-align: top;
+     width: 32%;
+}
+ #footer-custom-centers, #footer-custom-other, #footer-custom-walden, #footer-custom-logo {
+     margin-left: 15px;
+}
+ #footer-custom-depts ul, #footer-custom-centers ul, #footer-custom-other ul, #footer-custom-walden ul {
+     margin-left: 0;
+     padding: 0;
+}
+ #footer-custom-depts li, #footer-custom-centers li, #footer-custom-other li, #footer-custom-walden li {
+     padding-right: 15px;
+     padding-left: 15px;
+     margin: 0px 0 2px;
+     line-height: 1.5 !important;
+}
+ #footer-custom-legal ul {
+     margin-left: 15px;
+     margin-bottom: 15px;
+     padding: 0;
+}
+ #footer-custom-legal li {
+     display: inline;
+     white-space: nowrap;
+     border-right: 1px solid #ECDBAC;
+     padding-right: 15px;
+     color: #EFEFEF;
+}
+ #footer-custom-legal li:first-child {
+     padding-left: 0px;
+}
+ #footer-custom-legal li:last-child {
+     border-right: 0px;
+}
+ #footer-custom-legal li {
+     padding-right: 15px;
+     padding-left: 15px;
+}
+ #footer-login-link {
+     float: right;
+     padding: 0 15px 10px 0;
+}
+ #footer-login-link a {
+     color: #efefef !important;
+}
+/*style default Powered by Springshare,All Rights Reserved, Login to LibApps for system pages that show up in accessibility crawls */
+ #s-lib-footer-brand, #s-lib-footer-rights, #s-lib-footer-login-link a {
+     color: white;
+}
+ @media only screen and (max-width: 875px) {
+     #s-lib-footer-public-custom {
+         height: auto !important;
+    }
+     #footer-container {
+         width: 100%;
+    }
+     h2#footer-header {
+         display: none;
+    }
+     #footer-custom-depts, #footer-custom-centers, #footer-custom-other, #footer-custom-walden {
+         display: none;
+    }
+     #footer-mobile-depts {
+         display: block;
+         margin-bottom: 15px;
+         text-align: center;
+    }
+     #footer-mobile-depts a {
+         font-size: 1.5rem;
+         color: #EFEFEF;
+         text-decoration: none !important;
+    }
+     #footer-custom-legal {
+         margin-bottom: 30px;
+    }
+     #footer-custom-legal li {
+         display: block !important;
+         padding: 0px;
+         text-align: center;
+         border: 0px;
+         font-size: 1.5rem;
+    }
+     #footer-custom-legal a {
+         font-size: 1.5rem;
+    }
+     #footer-login-link {
+         font-size: 1.25rem;
+    }
+     .footer-login-link-content a {
+         display: block;
+    }
+     .footer-col-header {
+         border-right: 0 !important;
+         padding: 0;
+    }
+     #footer-custom-accessibility {
+         padding-left: 10%;
+         padding-right: 10%;
+         height: auto;
+         background-position: left;
+    }
+}

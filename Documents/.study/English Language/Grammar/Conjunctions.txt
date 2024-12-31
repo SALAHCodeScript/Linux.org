@@ -1,0 +1,82 @@
+			  Conjunctions
+-----------------------------------------------------------------
+A conjunction is a word that is used to connect words, phrases 
+   and clauses. There are many conjunctions in the English 
+      language but some of common ones include with the
+	  and / or / but / because / for / if / when
+There are three basic types of conjunctions: 
+Coordinating, Subordinating, and Correlative
+-----------------------------------------------------------------
+			     Type-1-
+Coordinating: This type of conjunction is used to connect items 
+that are grammatically equal: two words, two phrases, or two 
+independent clauses. There are seven coordinating conjunctions 
+in English, and you can remember them using the mnemonic device 
+          FANBOYS: for, and, nor, but, or, yet, so
+
+Coordinating conjunctions can join two nouns, verbs, 
+		adjectives, or other types of word
+
+Example: 
+	The data was gathered through questionnaires and
+		interviews
+	I don’t like to run or swim
+	He was clever but lazy
+
+Example with phrases:
+	The dog wagged his tail and panted excitedly
+	The results were undeniably intriguing yet ultimately 
+		inconclusive
+	She usually studies in the library or at a cafe
+_________________________________________________________________
+			     Type-2-
+Subordinating: This type of conjunction includes words like 
+because, if, although, since, until, and while. A subordinating
+conjunction is used to introduce a dependent clause
+
+In contrast to an independent clause, a dependent clause 
+(also known as a subordinate clause) is a group of words 
+that contains a subject and a verb but cannot stand as a 
+complete sentence on its own. A dependent clause does not 
+express a complete idea, so it must always be attached to 
+	an independent clause
+_________________________________________________________________
+|   Relationship   |	  Common subordinating conjunctions	 |
+|------------------|---------------------------------------------|
+| Cause and effect | because, since, as				 |
+|------------------|---------------------------------------------|
+| Time	     	   | when, before, after, once, until, whenever, |
+|		   |	since, while				 |
+|------------------|---------------------------------------------|
+| Place		   | where, wherever				 |
+|------------------|---------------------------------------------|
+| Condition	   | if, unless, in case		    	 |
+|------------------|---------------------------------------------|
+| Contrast	   | although, though, whereas			 |
+|__________________|_____________________________________________|
+
+Example:
+	Because I woke up late this morning, I went to school
+		without eating breakfast
+	He will receive a major bonus, if he succeeds in 
+		closing the corporate partnership deal
+	While John was at work, his friends snuck into his 
+		apartment to set up a surprise party
+_________________________________________________________________
+			     Type-3-
+Correlatives: This type of conjunction always comes in a pair 
+and is used to join grammatically equal elements in a sentence
+
+Common pairs include either … or, neither … nor, not only …
+but also, both … and
+
+In most cases, no comma should be used 
+	between the two elements
+
+Example: His book on the Vietnam war drew not only from 
+	  interviews with other survivors but also from 
+		his own experiences in the conflict
+	He planned to collect data by either using an 
+	 online survey or conducting phone interviews			
+	Neither the blue one nor the red one is available 
+		in size 4

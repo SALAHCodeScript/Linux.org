@@ -1,0 +1,62 @@
+What is an operator?
+------------------------------------------------------------------
+An operator in a programming language is a symbol that tells the
+compiler or interpreter to perform specific mathematical,
+relational or logical operation and produce final result. This
+chapter will explain the concept of operators and it will take
+you through the important arithmetic and relational operators
+available in C, Java, and Python.
+------------------------------------------------------------------
+
+Arithmetic Operators
+------------------------------------------------------------------
+Computer programs are widely used for mathematical calculations.
+We can write a computer program which can do simple calculation
+like adding two numbers (2 + 3) and we can also write a program,
+which can solve a complex equation like P(x) = x4 + 7x3 - 5x + 9.
+If you have been even a poor student, you must be aware that in
+first expression 2 and 3 are operands and + is an operator.
+Similar concepts exist in Computer Programming.
+------------------------------------------------------------------
+
+Example -Js-:
+------------------------------------------------------------------
+The input:
+addition = 2 + 2;
+console.log(addition);
+
+The output:
+=> 4
+------------------------------------------------------------------
+
+Relational Operators
+------------------------------------------------------------------
+Consider a situation where we create two variables and assign
+them some values as follows
+A = 20, B = 10
+Here, it is obvious that variable A is greater than B in values.
+So, we need the help of some symbols to write such expressions
+which are called relational expressions. If we use C programming
+language, then it will be written as follows ? (A > B)
+
+Here, we used a symbol > and it is called a relational operator
+and in their simplest form, they produce Boolean results which
+means the result will be either true or false. Similarly,
+a programming language provides various relational operators.
+The following table lists down a few of the important relational
+operators available in C programming language. Assume variable A
+holds 10 and variable B holds 20
+------------------------------------------------------------------
+
+Example -Js-:
+------------------------------------------------------------------
+The input:
+let x = 5;
+let y = 2;
+if(x >= y){
+    console.log("true");
+}
+
+The output:
+=> true
+------------------------------------------------------------------

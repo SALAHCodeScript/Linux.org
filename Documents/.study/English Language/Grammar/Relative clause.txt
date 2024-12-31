@@ -1,0 +1,35 @@
+		          Relative Clause
+------------------------------------------------------------------
+This is a clause that generally modifies a noun or a noun phrase
+and is often introduced by a relative pronoun (which, that, who, 
+whom, whose), A relative clause connects ideas by using pronouns 
+that relate to something previously mentioned and allows the
+writer to combine two independent clauses into one sentence
+A relative clause is also known as an adjective clause, There are
+two types of relative clauses: restrictive and nonrestrictive
+------------------------------------------------------------------
+			 Relative Pronouns
+__________________________________________________________________
+| 		 | Referring to | Referring to 	  | Possessive	 |
+|	         |  a human     | something other |		 |
+|	         |	        | than a human	  |		 |
+|________________|______________|_________________|______________|
+| Restrictive    | Who, Whom,   | Which, That	  | Whose	 |
+|	         | That	        |		  |		 |
+|	         |	        |	    	  |		 |
+|________________|______________|_________________|______________|
+| Nonrestrictive | Who, Whom	| Which		  | Whose	 |
+| (with commas)  | 	        |		  |		 |
+|	         |	        |	    	  |		 |
+|________________|______________|_________________|______________|
+
+Example:
+	The book that she read was important for her literature 
+		review (restrictive)
+
+	The participants who were interviewed volunteered to be 
+		part of the study (restrictive)
+
+	Walden University, which is entirely online, has main 
+	administrative offices in Baltimore and Minneapolis
+		(nonrestrictive)

@@ -1,0 +1,240 @@
+details summary:before {
+content: '\f067';
+font-family: 'fontAwesome'; 
+display: inline-block;
+padding-right: 20px; 
+}
+details[open] summary:before {
+content: '\f068';
+font-family: 'fontAwesome'; 
+display: inline-block;
+padding-right: 20px; 
+}
+details summary {
+font-size: 2rem; 
+padding: 15px;
+}
+details summary h2, details summary h3, details summary h4 {
+display: inline; 
+font-size: 2rem; 
+padding: 0px;
+font-family: var(--default); 
+margin: 0px; 
+}
+details summary h2:after {
+	display: none;
+}
+details[open] summary, details[open] summary h2, details[open] summary h3, details[open] summary h4 {
+font-weight: bold; 
+}
+details p, details h2, details h3, details h4 {
+padding: 5px 15px; 
+}
+details summary { 
+cursor: pointer;
+}
+/*Standard Details Box*/
+details summary, details summary h2, details summary h3, details summary h4 {
+color: var(--slate) !important;
+}
+details.details-standard summary:hover, details.details-standard summary:focus {
+background-color: var(--slate); 
+color: #fff !important; 
+}
+details.details-standard summary:hover h2, details.details-standard summary:focus h2,
+details.details-standard summary:hover h3, details.details-standard summary:focus h3,
+details.details-standard summary:hover h4, details.details-standard summary:focus h4 {
+color: #fff !important; 
+}
+details.details-standard[open] {
+border: 1px solid var(--light-gray);
+}
+details.details-standard:nth-child(odd) {
+background-color: rgba(219, 222, 224, .75);
+}
+
+/*Standard White Details Box*/
+details.details-standard-white summary:hover, details.details-standard-white summary:focus {
+background-color: var(--slate); 
+color: #fff !important; 
+} 
+
+details.details-standard-white summary:hover h2, details.details-standard-white summary:focus h2, 
+details.details-standard-white summary:hover h3, details.details-standard-white summary:focus h3, 
+details.details-standard-white summary:hover h4, details.details-standard-white summary:focus h4 {
+color: #fff !important; 
+}
+details.details-standard-white[open] {
+border: 1px solid var(--light-gray);
+}
+
+/*Slate Details Box*/
+details.details-slate:nth-child(odd) {
+background-color: var(--slate);
+color: #fff;
+}
+details.details-slate:nth-child(odd) summary, 
+details.details-slate:nth-child(odd) summary h2, 
+details.details-slate:nth-child(odd) summary h3, 
+details.details-slate:nth-child(odd) summary h4 {
+color: #fff !important; 
+}
+details.details-slate:hover:nth-child(even) summary, details.details-slate:focus:nth-child(even) summary{
+background-color: #fff; 
+color: var(--slate); 
+border: 1px solid var(--slate); 
+}
+details.details-slate:hover:nth-child(odd) summary {
+color: var(--slate) !important; 
+background-color: #fff; 
+border: 1px solid var(--slate); 
+}
+ details.details-slate:focus {
+	 border: 2px solid var(--gold);
+}
+details.details-slate:hover:nth-child(odd) summary, details.details-slate:focus:nth-child(odd) summary 
+details.details-slate:hover:nth-child(odd) summary h2, details.details-slate:hover:nth-child(odd) summary h2, 
+details.details-slate:hover:nth-child(odd) summary h3, details.details-slate:hover:nth-child(odd) summary h3, 
+details.details-slate:hover:nth-child(odd) summary h4, details.details-slate:hover:nth-child(odd) summary h4  {
+color: var(--slate) !important; 
+}
+
+/*Cyan Variation*/
+details.details-cyan:nth-child(even)  {
+background-color: var(--cyan);
+color: #fff; 
+}
+details.details-cyan:nth-child(even) summary, 
+details.details-cyan:nth-child(even) summary h2, 
+details.details-cyan:nth-child(even) summary h3, 
+details.details-cyan:nth-child(even) summary h4 {
+color: #fff !important; 
+}
+details.details-cyan:nth-child(odd):hover summary, details.details-cyan:nth-child(odd):focus summary {
+border: 1px solid var(--cyan); 
+background-color: #fff; 
+color: var(--cyan) !important; 
+}
+
+details.details-cyan:hover:nth-child(even) summary {
+color: var(--cyan) !important; 
+background-color: #fff; 
+}
+details.details-cyan:hover, details.details-cyan:focus {
+	 border: 1px solid var(--cyan); 
+}
+details.details-cyan:hover:nth-child(even) summary  h2, details.details-cyan:hover:nth-child(even) summary h2, 
+details.details-cyan:hover:nth-child(even) summary  h3, details.details-cyan:hover:nth-child(even) summary  h3, 
+details.details-cyan:hover:nth-child(even) summary h4, details.details-cyan:hover:nth-child(even) summary  h4  {
+color: var(--cyan) !important; 
+}
+details.details-cyan:hover, details.details-cyan:focus {
+	 border: 1px solid var(--cyan); 
+}
+	
+/*Nested Variation - to be used as a nested accordion within another details*/
+details.details-nested summary.summary-nested:before {
+content: '\f067';
+font-family: 'fontAwesome'; 
+display: inline-block;
+padding-right: 20px; 
+}
+details.details-nested[open] summary.summary-nested:before {
+content: '\f068';
+font-family: 'fontAwesome'; 
+display: inline-block;
+padding-right: 20px; 
+}
+details.details-nested {
+margin-left: 25px; 
+margin-right: 25px; 
+margin-top: 0px; 
+margin-bottom: 0px;
+}
+details details.details-nested {
+margin-left: 25px;
+background-color: #fff !important;
+}
+details.details-nested:last-child {
+margin-bottom: 25px; 
+}
+details.details-nested summary {
+color: #fff !important;
+background-color: var(--slate) !important; 
+border: 1px solid #fff; 
+}
+details.details-nested summary h2, details.details-nested summary h3, details.details-nested summary h4  {
+color: #fff !important;
+}
+details.details-nested[open] {
+border: 1px solid var(--dark-gray);
+}
+details.details-nested summary:hover {
+background-color: var(--cyan) !important;
+}
+details.details-nested:focus {
+	 border: 2px solid var(--gold);
+}
+/*Nested Variation in White- to be used as a nested accordion with either the slate or cyan class*/
+details.details-nested-white {
+margin-left: 25px; 
+margin-right: 25px; 
+margin-top: 0px; 
+margin-bottom: 0px;
+}
+details details.details-nested-white {
+margin-left: 25px;
+background-color: #fff !important;
+}
+details.details-nested-white:last-child {
+margin-bottom: 25px;  
+}
+details.details-nested-white summary {
+background-color: #fff !important; 
+border: 1px solid var(--slate); 
+}
+details.details-nested-white[open] {
+border: 1px solid var(--dark-gray);
+}
+details.details-nested-white summary:hover {
+background-color: var(--cyan) !important;
+color: #fff !important; 
+}
+details.details-nested-white:focus {
+	 border: 2px solid black;
+}
+@media print {
+.s-lib-box, .panel-body{
+	display: table;
+}	
+details[open] summary:before, details[open] summary.summary-nested:before  {
+		display: none; 
+	}
+	details.details-standard[open], details.details-nested[open], details.details-cyan[open], details.details-slate[open], details.details-nested-white[open], details.details-nested-white summary, details.details-nested summary  {
+    border: none;
+background-color: #fff !important;
+}
+details.details-nested-white[open], details.details-nested[open], details.details-standard[open], details.details-standard-white[open] {
+border: none;
+}
+details summary {
+font-size: 16px;
+padding: 0px; 
+	}
+details.details-cyan:nth-child(even) summary, 
+details.details-cyan:nth-child(even) summary h2, 
+details.details-cyan:nth-child(even) summary h3, 
+details.details-cyan:nth-child(even) summary h4, 
+details.details-slate:nth-child(odd) summary, 
+details.details-slate:nth-child(odd) summary h2, 
+details.details-slate:nth-child(odd) summary h3, 
+details.details-slate:nth-child(odd) summary h4, 
+details.details-nested summary, 
+details.details-nested summary h2, 
+details.details-nested summary h3, 
+details.details-nested summary h4 {
+color: var(--slate) !important; 
+}
+}
+
+

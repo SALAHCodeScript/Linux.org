@@ -1,0 +1,5 @@
+
+        window.$adManagementConfig = window.$adManagementConfig || {};
+        window.$adManagementConfig.web = window.$adManagementConfig.web || {};
+        window.$adManagementConfig.web.keywords = {"status":"PROCESSED","sales_kw":"common adjectives list,english,adjective,ocean,night sky,adjectives example amazing,firefighter,bold flavor,concert,movie,sunset,cat,green eye,defiant,black","sales_cat":"46,42","sales_safety":"GGT0","sales_segment":"GumGum Verity Seasonal - Mothers Day"};
+      

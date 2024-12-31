@@ -1,0 +1,8 @@
+{
+    "files.defaultLanguage": "c",
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "stdio.h": "c",
+        "cmath": "c"
+    }
+}

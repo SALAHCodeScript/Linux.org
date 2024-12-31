@@ -1,0 +1,95 @@
+
+<!-- Chat widget status code from APIs for Librarians -->
+
+ $(document).ready(function () {
+    $.getJSON("https://academicanswers.waldenu.edu/api/1.0/chat/widgets/status/370", function (json) {
+        if (json.online === true) {
+            $('#chat-status').html('<br/><p id="chat-online">Online!</p>');
+        } else {
+            $('#chat-status').html('<br/><span id="chat-offline">Offline</span>');
+        };
+    })
+});
+
+<!-- Chat schedule code from APIs for Librarians -->
+
+let apis4librarians_WeeksHours = (function() {
+  $.getJSON(
+    "https://waldenu.libcal.com/widget/hours/grid?iid=1415&format=json&weeks=1&systemTime=0&callback=?",
+    function(json) {
+      class DaysHours {
+        constructor(singleDay) {
+          let theDate;
+          //process and clean up the input
+          if (singleDay.date[5] === "0") {
+            this.theDate = singleDay.date.substr(6);
+          } else {
+            this.theDate = singleDay.date.substr(5);
+          }
+          this.rendered = singleDay.rendered;
+        }
+        renderMe(dayName) {
+          $("#this-weeks-hours").append(
+            "<li id='" +
+              dayName +
+              "-hours'><span class='day-of-week'>" +
+              dayName +
+              ", " +
+              this.theDate +
+              ":</span> " +
+              "<span class='dates'>" +
+              this.rendered +
+              "</span> " +
+              "</li>"
+          );
+        }
+      }
+
+      const daysOfTheWeek = [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ];
+      const locationsDays = json.locations[2].weeks[0];
+      const daysRendered = {};
+
+      for (let day of daysOfTheWeek) {
+        let dayToRender = new DaysHours(locationsDays[day]);
+        let key = `${day}_stuff`;
+        daysRendered[key] = dayToRender.renderMe(day);
+      }
+      let highlightDay = (function() {
+        //if you would like the hours for today marked in some way use the below and then style with .its-today
+        var d = new Date();
+        var n = d.getDay();
+        switch (n) {
+          case 0:
+            $("#Sunday-hours .dates").addClass("its-today");
+            break;
+          case 1:
+            $("#Monday-hours .dates").addClass("its-today");
+            break;
+          case 2:
+            $("#Tuesday-hours .dates").addClass("its-today");
+            break;
+          case 3:
+            $("#Wednesday-hours .dates").addClass("its-today");
+            break;
+          case 4:
+            $("#Thursday-hours .dates").addClass("its-today");
+            break;
+          case 5:
+            $("#Friday-hours .dates").addClass("its-today");
+            break;
+          case 6:
+            $("#Saturday-hours .dates").addClass("its-today");
+            break;
+        }
+      })();
+    }
+  );
+})();

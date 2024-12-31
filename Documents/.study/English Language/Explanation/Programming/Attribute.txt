@@ -1,0 +1,54 @@
+What is an attribute?
+------------------------------------------------------------------
+In programming, attributes are properties or characteristics
+that you can assign to different elements, like variables,
+objects, or classes. They provide additional information or
+behavior to these elements, helping you define their specific
+traits.
+------------------------------------------------------------------
+
+Python class attribute
+------------------------------------------------------------------
+Python class attributes are variables of a class that are shared
+between all of its instances. They differ from instance
+attributes in that instance attributes are owned by one specific
+instance of the class and are not shared between instances.
+------------------------------------------------------------------
+
+Example -Py-
+------------------------------------------------------------------
+The input:
+class classes:
+    class_attribute = 0
+
+cls_atr = classes()
+print(cls_atr.class_attribute)
+
+The output:
+=> 0
+------------------------------------------------------------------
+
+Python instance attribute
+------------------------------------------------------------------
+While the instance attribute in Python has exactly the same
+characteristics and definition as other object-oriented languages
+the class attribute is often mistakenly considered to be the
+exact equivalent of the static attribute in Java or C++. Class
+attributes in Python and static attributes in Java or C++ have a
+lot in common, but they have several behavioral differences that
+I will highlight in this article.
+------------------------------------------------------------------
+
+Example -Py-
+------------------------------------------------------------------
+The input:
+class classes:
+    def __init__(self, instance_attribute):
+        self.instance_attribute = instance_attribute
+
+ins_atr = classes(1)
+print(ins_atr.instance_attribute)
+
+The output:
+=> 1
+------------------------------------------------------------------

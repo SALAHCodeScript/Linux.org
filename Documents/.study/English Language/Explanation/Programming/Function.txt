@@ -1,0 +1,86 @@
+What is a function?
+------------------------------------------------------------------
+Functions are "self contained" modules of code that accomplish
+a specific task. Functions usually "take in" data, process it,
+and "return" a result. Once a function is written, it can be used
+over and over and over again. Functions can be "called" from the
+inside of other functions.
+------------------------------------------------------------------
+
+What does a function do?
+------------------------------------------------------------------
+Functions "Encapsulate" a task (they combine many instructions
+into a single line of code). Most programming languages provide
+many built in functions that would otherwise require many steps
+to accomplish, for example computing the square root of a number.
+In general, we don't care how a function does what it does,
+only that it "does it"!
+------------------------------------------------------------------
+
+------------------------------------------------------------------
+When a function is "called" the program "leaves" the current
+section of code and begins to execute the first line inside the
+function. Thus the function "flow of control" is:
+1. The program comes to a line of code containing a
+"function call".
+
+2. The program enters the function (starts at the first line
+in the function code).
+
+3. All instructions inside of the function are executed from
+top to bottom.
+
+4. The program leaves the function and goes back to where it
+started from.
+
+5. Any data computed and RETURNED by the function is used
+in place of the function in the original line of code.
+------------------------------------------------------------------
+
+Why do we Write Functions?
+------------------------------------------------------------------
+1. They allow us to conceive of our program as a bunch of
+sub-steps. (Each sub-step can be its own function. When any
+program seems too hard, just break the overall program into
+sub-steps!)
+
+2. They allow us to reuse code instead of rewriting it.
+
+3. Functions allow us to keep our variable namespace clean
+(local variables only "live" as long as the function does).
+In other words, function_1 can use a variable called i, and
+function_2 can also use a variable called i and there is no
+confusion. Each variable i only exists when the computer is
+executing the given function.
+
+4. Functions allow us to test small parts of our program in
+isolation from the rest. This is especially true in interpreted
+langaues, such as Matlab, but can be useful in C, Java,
+ActionScript, etc.
+------------------------------------------------------------------
+
+Steps to Writing a Function
+------------------------------------------------------------------
+1. Understand the purpose of the function.
+
+2. Define the data that comes into the function from the caller
+(in the form of parameters)!
+
+3. Define what data variables are needed inside the function to
+accomplish its goal.
+
+4. Decide on the set of steps that the program will use to
+accomplish this goal. (The Algorithm)
+------------------------------------------------------------------
+
+Example -Js-:
+------------------------------------------------------------------
+The input:
+Function addition(x, y){
+    return x + y;
+}
+console.log(addition(2, 2))
+
+The output:
+=> 4
+------------------------------------------------------------------

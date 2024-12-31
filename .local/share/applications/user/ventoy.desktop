@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Ventoy
+Comment=Create Bootable Flash Disk
+Icon=ventoy
+Exec=/home/salah/Programs/Ventoy/VentoyGUI.x86_64
+Categories=Utility;
+Terminal=false

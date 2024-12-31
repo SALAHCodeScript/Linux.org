@@ -1,0 +1,14 @@
+ten, eleven, one.
+twenty, twenty, two.
+thirteen, thirty, three.
+fourteen, forty, four.
+fifteen, fifty, five.
+sixteen, sixty, six.
+seventeen, seventy, seven.
+eighteen, eighty, eight.
+nineteen, ninety, nine.
+
+hundred.
+thousand.
+million.
+billion.

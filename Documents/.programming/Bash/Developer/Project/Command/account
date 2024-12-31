@@ -1,0 +1,47 @@
+#!/usr/bin/zsh
+
+# Variables
+file="$HOME/Documents/.accounts/$1"
+let "specific = $2 + 0"
+
+op="$3"
+#opt="${option^}"
+
+outfile=".out"
+emptyline=0
+
+echo $opt
+
+# Create Output File
+touch $outfile
+
+# Add 1 If Is It Empty
+while IFS= read -r line; do
+	if [[ -z "$line" ]]; then
+		emptyline=$emptyline+1
+	fi
+done < $file
+
+# Statments
+if [[ $specific -le 0 || $specific -gt $emptyline ]]; then
+	cat $file
+else;
+	count=0
+	while IFS= read -r line; do
+		echo "$line" >> $outfile
+		if [[ -z "$line" ]]; then
+			count=$count+1
+			if [[ $specific -eq $count ]]; then
+				break
+			fi
+		fi
+	done < $file
+	if [[ -n $opt ]]; then
+		cat $outfile | tail -n 4 | grep $opt
+	else;
+		cat $outfile | tail -n 4
+	fi
+fi
+
+# Remove Output File
+rm $outfile

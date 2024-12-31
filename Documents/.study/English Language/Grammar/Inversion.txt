@@ -1,0 +1,24 @@
+			     Inversion
+-------------------------------------------------------------------
+Inversion happens when we reverse (invert) the normal word order 
+of a structure, most commonly the subject-verb word order, For 
+example, a statement has the subject (s) before the verb (v), 
+but to make question word order, we invert the subject and the 
+verb, with an auxiliary (aux) or modal verb (m) before the 
+subject (s)
+-------------------------------------------------------------------
+Example:
+	Hardly ever does he come to class on time
+
+	On the windowsill were her two cats, Penny and Percival
+
+	Little did they were realise how much trouble they
+	    were in
+
+	Never had she read such a sad book as The Coldest Tear
+
+	Only then did he understand what she had meant not
+	    until later did we learn what had happened
+
+	Not only have we lost all our money, but we've lost our
+	    bags
