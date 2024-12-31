@@ -13,11 +13,10 @@ export QT_QPA_PLATFORM_PLUGIN_PATH=/usr/lib/x86_64-linux-gnu/qt5/plugins/platfor
 ## Quick
 alias profile="nano ~/.zshrc"
 alias reload="source $HOME/.zshrc && clear"
-alias fonts="fc-list"
-alias rfont="fc-cache"
 alias services="systemctl list-unit-files --state=enabled"
 alias bat="batcat"
 alias open="xdg-open"
+alias clip="xclip -selection clipboard"
 ## Directories
 alias doc="cd ~/Documents"
 alias down="cd ~/Downloads"

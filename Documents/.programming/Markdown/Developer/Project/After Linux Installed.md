@@ -1,4 +1,4 @@
-# Ubuntu
+# Linux-Mint
 ### 1. Customize Linux:
 ##### Change your settings and theme as you like.
 ### 2. Update:
@@ -36,9 +36,7 @@ sudo apt install -y libreoffice-math libreoffice-base
 ##### Windows:
 ```bash
 sudo apt install -y wine wine winetricks
-winetricks vcrun2003 vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2022
-winetricks d3dx9 directx9
-winetricks dotnet20 dotnet35 dotnet40 dotnet48
+winetricks vcrun2003 vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2022 d3dx9 directx9 dotnet20 dotnet35 dotnet40 dotnet48
 ```
 ### 5. Switch to ZSH Shell:
 ```bash
@@ -62,7 +60,6 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/the
 ```bash
 git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
-sudo apt install command-not-found
 git clone https://github.com/zsh-users/zsh-history-substring-search $ZSH_CUSTOM/plugins/zsh-history-substring-search
 ```
 ##### Edit .zshrc File:
@@ -75,7 +72,6 @@ plugins=(
   git                       # Helpful Git commands and shortcuts
   zsh-syntax-highlighting   # Syntax highlighting for better readability
   zsh-autosuggestions       # Suggestions based on previous commands
-  command-not-found         # Suggests commands when a typo is made
   history                   # Better history management
 )
 ```
@@ -117,14 +113,22 @@ sudo apt install python3.13
 ```bash
 python3.13 -m ensurepip --upgrade
 # if didn't work try this:
+curl -O https://bootstrap.pypa.io/get-pip.py
 python3.13 get-pip
 ```
+##### Install python's packages:
+```bash
+pip install Essentials Faker panda3d APScheduler Streamlit Celery Gunicorn SymPy Plotly Dash PyBrain NLTK unittest pytest pillow opencv-python mysql-connector-python python-dateutil python-docx docopt argparse-subcommand cement python-fire prompt-toolkit rich yara-python customtkinter typer requests pyPDF2 sqlalchemy json_schema lxml beautifulsoup4 numpy pandas matplotlib scikit-learn scipy flask fastapi pygame twisted argparse django pyautogui selenium openpyxl click argparse-subcommand PythonTurtle
+```
 ### 10. Install Programs:
-##### Google Chrome
-##### VSCode
-##### Free Download Manager
-##### Godot 3.6
-##### TLauncher
-##### Ventoy
+##### Browser:
+###### 'Google Chrome' | 'Midori'
+##### Text Editor:
+###### 'VSCode'
+##### Games:
+###### 'Godot 3.6' | 'TLauncher'
+##### Others:
+###### 'Free Download Manager' | 'Ventoy'
 ### 11. Get your Data:
-##### Your machine is ready to get data from your flash disk.
+##### Now your machine is ready to get data.
+
