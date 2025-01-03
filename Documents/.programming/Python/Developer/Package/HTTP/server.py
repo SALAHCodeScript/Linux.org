@@ -1,3 +1,4 @@
+#!/usr/bin/python3.13
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 
 host = "localhost"

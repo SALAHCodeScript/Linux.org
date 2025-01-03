@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3.13
 import mysql.connector
 
 host = "127.0.0.1"

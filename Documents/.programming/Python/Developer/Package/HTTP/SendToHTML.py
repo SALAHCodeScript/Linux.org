@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3.13
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 host = "localhost"

@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3.13
 from http.server import SimpleHTTPRequestHandler, HTTPServer
 
 class MyHandler(SimpleHTTPRequestHandler):
@@ -12,4 +12,5 @@ port = 8000
 
 server = HTTPServer((host, port), MyHandler)
 print(f"Serving on http://{host}:{port}")
+
 server.serve_forever()
