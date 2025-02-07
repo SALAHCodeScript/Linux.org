@@ -4,12 +4,16 @@
 - [Usage](#usage)  
 - [Contributing](#contributing)  
 - [License](#license)  
-## ✨ Features  
+
+---
+## ✨ [Features](#features)  
 ✅ Easy to use  
 ✅ Lightweight & Fast  
 ✅ Cross-platform Support  
 ✅ Open-source and free  
-## 🛠 Installation  
+
+---
+## 2 [Installation](#installation)
 ### Prerequisites  
 - Git  
 ### Steps  
@@ -18,6 +22,14 @@
    git clone https://github.com/SALAHCodeScript/Linux.org.git
 ```
 
+---
+### 3. [Usage](#usage)  
+Explain how to use your project with **examples and screenshots**.  
+```markdown
+## 🚀 Usage  
+Run the script with:  
+```sh
+python script.py --option
 ---
 ### 7. **Contributing**  
 Encourage others to contribute.  
@@ -30,3 +42,18 @@ We welcome contributions!
 5. Push to your branch (`git push origin feature-branch`)  
 6. Open a **Pull Request** 🚀  
 ```
+
+---
+### 4. [Contributing](#contributing)  
+Encourage others to contribute.  
+```markdown
+## 🤝 Contributing  
+We welcome contributions!  
+1. Fork the repository  
+2. Create a new branch (`git checkout -b feature-branch`)  
+3. Commit your changes (`git commit -m "Added a new feature"`)  
+4. Push to your branch (`git push origin feature-branch`)  
+5. Open a **Pull Request** 🚀  
+```
+## 🙏 Acknowledgments  
+- [Google Drive](https://drive.google.com/drive/folders/1WqE4CXibc811vy9_ml7WqYevN8TfGuAp) for inspiration
