@@ -5,14 +5,12 @@
 - [Contributing](#contributing)  
 - [License](#license)  
 
----
 ## ✨ [Features](#features)  
 ✅ Easy to use  
 ✅ Lightweight & Fast  
 ✅ Cross-platform Support  
 ✅ Open-source and free  
 
----
 ## 2 [Installation](#installation)
 ### Prerequisites  
 - Git  
@@ -20,9 +18,8 @@
 1. Clone the repo  
    ```sh
    git clone https://github.com/SALAHCodeScript/Linux.org.git
-```
+   ```
 
----
 ### 3. [Usage](#usage)  
 Explain how to use your project with **examples and screenshots**.  
 ```markdown
@@ -42,8 +39,6 @@ We welcome contributions!
 5. Push to your branch (`git push origin feature-branch`)  
 6. Open a **Pull Request** 🚀  
 ```
-
----
 ### 4. [Contributing](#contributing)  
 Encourage others to contribute.  
 ```markdown
