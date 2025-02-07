@@ -16,7 +16,7 @@
    ```sh
    git clone https://github.com/SALAHCodeScript/Linux.org.git
    ```
-### 3. [Usage](#usage)  
+## 3. [Usage](#usage)  
 Explain how to use your project with **examples and screenshots**.  
 ```markdown
 ## 🚀 Usage  
@@ -24,7 +24,7 @@ Run the script with:
 ```sh
 python script.py --option
 ```
-### 4. [Contributing](#contributing)  
+## 4. [Contributing](#contributing)  
 Encourage others to contribute.  
 We welcome contributions!  
 1. Fork the repository  
