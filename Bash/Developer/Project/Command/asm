@@ -1,0 +1,23 @@
+#!/usr/bin/sh
+
+# Initialize
+option=$1
+file=$2
+
+basename=${file%.asm}
+out=$basename.o
+
+# Complier
+if [[ "${option:0:1}" = "-" && "${option:1}" = "32" ]]; then
+    nasm -f elf32 -o $out $file
+    ld -m elf_i386 -o $basename $out
+elif [[ "${option:0:1}" = "-" && "${option:1}" = "64" ]]; then
+    nasm -f elf64 -o $out $file
+    ld -o $basename $out
+fi
+
+# Execute
+./$basename
+
+# Clean
+rm $basename $out

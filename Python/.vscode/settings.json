@@ -1,0 +1,11 @@
+{
+    "files.defaultLanguage": "python",
+    "python.testing.pytestArgs": [
+        "Project"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.extraPaths": [
+        "./Virtual Environment/lib/python3.13/my-packages"
+    ],
+}

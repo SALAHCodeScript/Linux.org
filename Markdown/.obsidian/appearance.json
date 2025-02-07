@@ -1,0 +1,9 @@
+{
+  "accentColor": "#009664",
+  "theme": "obsidian",
+  "interfaceFontFamily": "",
+  "textFontFamily": "MesloLGS NF,0xProto Nerd Font Mono",
+  "enabledCssSnippets": [
+    "style"
+  ]
+}

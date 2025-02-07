@@ -1,0 +1,9 @@
+#!bash
+
+log_file="$programming\\Python\\Developer\\Project\\Command\\logs\\$1.log"
+
+if [ -e $log_file ]; then
+	cat $log_file
+else
+	echo "no such file log"
+fi

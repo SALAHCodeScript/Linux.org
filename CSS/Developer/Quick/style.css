@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    color: white;
+    background: black;
+}
+body {
+    color: rgb(200 200 200);
+    background-color: rgb(5 5 5);
+}
+.container {
+    background-color: red;
+    display: inline-flex;
+    flex-direction: row;
+}
+.container .texts {
+    margin: 10px;
+    display: inline-block;
+    background-color: blue;
+}
+.container .texts .text {
+    display: inline-block;
+    background-color: green;
+}

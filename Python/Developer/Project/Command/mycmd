@@ -1,0 +1,17 @@
+#!python
+import os
+import posixpath
+
+path = "D:\\Data\\SALAH\\home\\salah\\Documents\\.programming"
+command_path = "Developer\\Project\\Command"
+
+for dir in os.listdir(path):
+	current_command_path = fr"{path}\{dir}\{command_path}"
+	if posixpath.exists(current_command_path) and not(os.listdir(current_command_path) == []):
+		print(f"{dir}:")
+		items = os.listdir(current_command_path)
+		commands = []
+		for item in items:
+			if posixpath.isfile(fr"{current_command_path}\{item}"):
+				commands.append(item)
+		print(commands)

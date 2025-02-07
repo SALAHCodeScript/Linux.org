@@ -1,0 +1,38 @@
+#!/usr/bin/sh
+
+file="$HOME/Documents/.accounts/$1"
+specific=$(($2 + 0))
+option="$3"
+
+outfile=".out"
+emptyline=0
+
+touch $outfile
+
+while IFS= read -r line; do
+	if [ -z "$line" ]; then
+		emptyline=$emptyline+1
+	fi
+done < $file
+
+if [ $specific -le 0 ] || [ $specific -gt $emptyline ]; then
+	cat $file
+else
+	count=0
+	while IFS= read -r line; do
+		echo "$line" >> $outfile
+		if [ -z "$line" ]; then
+			count=$count+1
+			if [ $specific -eq $count ]; then
+				break
+			fi
+		fi
+	done < $file
+	if [ -n $option ]; then
+		cat $outfile | tail -n 4 | grep $option
+	else
+		cat $outfile | tail -n 4
+	fi
+fi
+
+rm $outfile

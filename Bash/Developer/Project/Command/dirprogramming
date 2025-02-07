@@ -1,0 +1,122 @@
+#!bash
+
+lang="$1"
+
+dir1="$2"
+dir2="$3"
+dir3="$4"
+
+cd $programming
+
+function navigate(){
+    if [ "$dir1" = "dev" ]; then
+       cd Developer
+        if [ "$dir2" = "pack" ]; then
+            cd Package
+        elif [ "$dir2" = "proj" ]; then
+            cd Project
+            if [ "$dir3" = "cmd" ]; then
+                cd Command
+            fi
+        elif [ "$dir2" = "qk" ]; then
+            cd Quick
+        elif [ "$dir2" = "tut" ]; then
+            cd Tutorial
+            if [ "$dir3" = "basic" ]; then
+                cd Basic
+            elif [ "$dir3" = "learn" ]; then
+                cd Learn
+            fi
+        fi
+    elif [ "$dir1" = "proj" ]; then
+       cd Project
+    elif [ "$dir1" = "venv" ]; then
+       cd Virtual\ Environment
+       if [ "$dir2" = "mypack" ]; then
+          cd lib/python3.13/my-packages
+       fi
+    elif [ "$dir1" = "web" ]; then
+           cd Web
+     fi
+}
+
+if [ "$lang" = "asm" ]; then
+   cd Assembly\ x86
+   navigate
+elif [[ "$lang" = "bash" || "$lang" = "sh" ]]; then
+   cd Bash
+   navigate
+elif [ "$lang" = "bat" ]; then
+   cd Batch
+   navigate
+elif [ "$lang" = "c" ]; then
+   cd C
+   navigate
+elif [[ "$lang" = "c++" || "$lang" = "cpp" ]]; then
+   cd C++
+   navigate
+elif [ "$lang" = "css" ]; then
+   cd CSS
+   navigate
+elif [ "$lang" = "git" ]; then
+   cd Git
+   navigate
+elif [ "$lang" = "html" ]; then
+   cd HTML
+   navigate
+elif [ "$lang" = "java" ]; then
+   cd Java
+   navigate
+elif [ "$lang" = "js" ]; then
+   cd JavaScript
+   navigate
+elif [ "$lang" = "json" ]; then
+   cd JSON
+   navigate
+elif [ "$lang" = "linux" ]; then
+   cd Linux
+   navigate
+elif [ "$lang" = "md" ]; then
+   cd Markdown
+   navigate
+elif [ "$lang" = "mysql" ]; then
+   cd MySQL
+   navigate
+elif [[ "$lang" = "nodejs" || "$lang" = "node" ]]; then
+   cd Nodejs
+   navigate
+elif [ "$lang" = "perl" ]; then
+   cd Perl
+   navigate
+elif [ "$lang" = "php" ]; then
+   cd PHP
+   navigate
+elif [[ "$lang" = "powershell" || "$lang" = "pwsh" ]]; then
+   cd Powershell
+   navigate
+elif [[ "$lang" = "python" || "$lang" = "py" ]]; then
+   cd Python
+   navigate
+elif [ "$lang" = "sqlite" ]; then
+   cd SQLite3
+   navigate
+elif [ "$lang" = "svg" ]; then
+   cd SVG
+   navigate
+elif [[ "$lang" = "tomal" || "$lang" = "toml" ]]; then
+   cd TOMAL
+   navigate
+elif [ "$lang" = "vbs" ]; then
+   cd VBScript
+   navigate
+elif [ "$lang" = "xml" ]; then
+   cd XML
+   navigate
+elif [ "$lang" = "yaml" ]; then
+   cd YAML
+   navigate
+elif [ "$lang" = "yara" ]; then
+   cd YARA
+   navigate
+fi
+

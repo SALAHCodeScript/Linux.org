@@ -1,0 +1,16 @@
+#!/usr/bin/sh
+
+# Initialize
+file=$1
+jar_file=${file%.kt}.jar
+
+# Complier
+kotlinc $file -include-runtime -d $jar_file
+
+if [ -e ./$jar_file ]; then
+# Execute
+	java -jar $jar_file
+
+# Clean
+	rm ./$jar_file
+fi

@@ -1,0 +1,5 @@
+#!/usr/bin/zsh
+
+myip=$(ip a | grep inet | awk '{print $2}' | head -n 1)
+
+echo ${myip%/8}

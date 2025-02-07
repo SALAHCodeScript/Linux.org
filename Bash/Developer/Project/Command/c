@@ -1,0 +1,46 @@
+#!/usr/bin/sh
+
+# Initialize
+arg1="$1"
+
+if [ "${arg1:0:1}" = "-" ]; then
+    # Initialize
+    option="${arg1:1:1}"
+    code="$2"
+    outfile="a.out"
+
+    if [ "$option" = "e" ]; then
+        # Complier
+        echo "#include <stdio.h> \nint main() { $code; return 0; }" | gcc -x c -
+
+        # Execute
+        ./$outfile
+
+        # Clean
+        rm ./$outfile
+    fi
+elif [ -e "$arg1" ]; then
+    # Initialize
+    file=$arg1
+    basename=${file%.c}
+
+    # Statment
+    args=()
+    for arg in $@; do
+	    if [ -n $arg ]; then
+		    args+=($arg)
+	    fi
+    done
+    args=("${args[@]:1}")
+
+    # Complier
+    gcc $file -o $basename ${args[@]}
+
+    if [ -e ./$basename ]; then
+        # Execute
+	    ./$basename
+
+        # Clean
+	    rm ./$basename
+    fi
+fi
